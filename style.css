@@ -17,7 +17,7 @@
 header{
     border: 3px solid rgb(255, 255, 255);
     z-index: 200;
-    width: 80%;
+    width: 80vw;
     height: 18vh;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@ h1{
 main{
     padding-top: 11rem;
     height: 110% ;
-    display: flex;
+    
     justify-content: space-around;
     
     box-shadow: inset 2px 1px 3px -3px gray;
@@ -186,4 +186,35 @@ main{
     position: absolute;
     right: 60px;
     top:130px
+}
+
+
+/*
+    TERMINO PRIMER SECTION
+*/
+
+
+.section-two {
+    border: springgreen 3px solid;
+    width: 80vw;
+    height: 650px;
+    background-image: url(/images/manos.PNG);
+    background-size: 100% ;
+}
+
+.caja-negra{
+    background-color: rgb(78, 73, 73);
+    opacity: 0.40;
+    width: 100%;
+    height: 100%;
+}
+.section-two p {
+    color: #ffffff;
+    font-family:Newsreader;
+    font-size: 80px;
+    
+}
+
+.parrafo{
+    color: #ffffff;
 }
