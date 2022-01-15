@@ -24,6 +24,7 @@ header{
     justify-content: space-around;
     
     position: fixed;
+    top: 0;
     background-color: #ffffff;
 }
 
@@ -219,7 +220,9 @@ main{
     color: #ffffff;
     position: absolute;
     z-index: 4;
+    font-family: Newsreader;
     font-size: 90px;
+    font-weight: 700;
     left: 13%;
     top: 15%;
 }
@@ -232,7 +235,7 @@ main{
 }
 
 .boton-section2{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 100px ;
     position: absolute;
     z-index: 4;
@@ -248,5 +251,88 @@ main{
     color: #ffffff;
     font-family: Mulish;
     font-size: 20px;
+    font-weight: bolder;
     
+}
+
+
+/*
+    TERMINO SEGUNDA SECTION
+*/
+
+.section-three{
+    border: #f0cb29 1px solid;
+    width: 80vw;
+    height: auto;
+    display: flex;
+}
+
+.lienzoo-cel{
+    flex-grow: 4;
+    border: #2b16e6 1px solid;
+    height: 797px;
+    position:relative;
+}
+.lienzo-poderes{
+    border: #df192a 1px solid;
+    flex-grow: 6;
+}
+.cocodos{
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 30%;
+}
+.circulo-grande-section2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(90deg,rgba(78,38,231,1) 0%,rgba(149,25,222,1)100%);
+    border-radius: 100%;
+    top:31%;
+    left: 10%;
+}
+.videodos{
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    left: 34%;
+}
+.exis2{
+    position: absolute;
+    top:14%;
+    left: 93%;
+}
+.punto2{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+.lienzo-poderes{
+    display: flex;
+}
+
+.lienzo-poder1{
+    border: green 1px solid;
+    width: 40%;
+}
+.lienzo-poder2{
+    border: green 1px solid;
+    width: 40%;
+}
+
+.minicel{
+    border: rgb(47, 140, 226) 1px solid;
+    width: 80%;
+    height: 50%;
+    
+}
+
+.minicel i {
+    font-size: 800%;
+    background: linear-gradient(90deg,rgba(78,38,231,1) 0%,rgba(149,25,222,1)100%);;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent ;
 }
