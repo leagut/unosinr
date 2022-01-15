@@ -269,8 +269,8 @@ main{
 
 .lienzoo-cel{
     flex-grow: 4;
-    border: #2b16e6 1px solid;
-    height: 797px;
+    border: #2b16e6 px solid;
+    height: 647px;
     position:relative;
 }
 .lienzo-poderes{
